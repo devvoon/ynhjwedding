@@ -74,6 +74,7 @@
             <div class="banner_inner d-flex align-items-center">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
+                    <!--
 					<div class="banner_content text-center">
 						<img src="img/banner/shap-1.png" alt="">
                         <br>
@@ -92,6 +93,7 @@
                         <br>
                         <br>
 						<img src="img/banner/shap-2.png" alt="">
+                        -->
 					</div>
 				</div>
             </div>
@@ -102,7 +104,7 @@
         <section class="story_area p_120" style="background-image: url(/ynhjwedding/img/bg.jpg); background-size: cover;">
         	<div class="container">
         		<div class="row story_inner">
-        			<div class="col-lg-4">
+        			<div class="col-lg-12">
         				<div class="story_text" style="padding-top: 10px;">
                         <img src="img/crown.png" style="width:20%;" alt="" />
         					<h3>초대합니다</h3>
@@ -439,36 +441,31 @@
                     서울 서초구 바우뫼로 12길 70 <br>
                     (양재동 202)<br>
                     <a href="tel:02-571-8100"> 02-571-8100</a><br><br>
-        		</div>
 
-                <div class="col-lg-12">
-                    <div class="col-md-12 col-sm-12 col-xs-12" >
-                        <!--
-                    * 카카오맵 - 약도서비스
-                    * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
-                    * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
-                        -->
-                        <!-- 1. 약도 노드 -->
-                        <div id="daumRoughmapContainer1575295990073" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                    <div class="col-lg-12">
+                            <!--
+                        * 카카오맵 - 약도서비스
+                        * 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+                        * 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+                            -->
+                            <!-- 1. 약도 노드 -->
+                            <div id="daumRoughmapContainer1575295990073" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-                        <!-- 2. 설치 스크립트 -->
-                        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                            <!-- 2. 설치 스크립트 -->
+                            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-                        <!-- 3. 실행 스크립트 -->
-                        <script charset="UTF-8">
-                            new daum.roughmap.Lander({
-                                "timestamp" : "1575295990073",
-                                "key" : "w3og",
-                                "mapWidth" : "324",
-                                "mapHeight" : "240"
-                            }).render();
-                        </script>
+                            <!-- 3. 실행 스크립트 -->
+                            <script charset="UTF-8">
+                                new daum.roughmap.Lander({
+                                    "timestamp" : "1575295990073",
+                                    "key" : "w3og",
+                                    "mapWidth" : "320",
+                                    "mapHeight" : "240"
+                                }).render();
+                            </script>
                     </div>
-                </div>
 
-                <div class="col-lg-12">
-                    <div class="col-md-12 col-sm-12 col-xs-12" style="letter-spacing:3px;">
-
+                    <div class="col-lg-12">
                         <p style="padding-top:10px; color:rgba(132,132,132);">
                             <br><br><strong>셔틀버스</strong><br>
                             3호선 양재역 9번출구 서초구민회관 앞 > <br>
@@ -489,10 +486,10 @@
                             6009번 리무진 버스 이용 <br>
                             인천공항 1층 5A, 11B정류장 승차<br>
                             양재역 로비 하차<br><br>
-
                         </p>
                     </div>
-                </div>
+        		</div>
+
                 <!--
                 <div class="clients_slider owl-carousel">
         			<div class="item">
