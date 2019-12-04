@@ -484,7 +484,7 @@ button:focus {
   color: rgb(255,255,255);
   font-size: 48px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .blog_banner {
@@ -518,7 +518,7 @@ button:focus {
 .blog_banner .banner_inner .blog_b_text h2 {
   font-size: 60px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   line-height: 66px;
   margin-bottom: 15px;
 }
@@ -564,7 +564,7 @@ button:focus {
   font-weight: bold;
   color: #fff;
   font-size: 48px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   margin-bottom: 12px;
   padding-top: 10px;
   font-weight: bold;
@@ -691,7 +691,7 @@ button:focus {
 .story_inner .story_text h3 {
   color: #222222;
   font-size: 36px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -722,7 +722,7 @@ button:focus {
 }
 
 .journey_item h4 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   font-size: 18px;
   color: #222222;
@@ -770,7 +770,7 @@ button:focus {
 .journey_text_items .journey_item h4 {
   color: #222222;
   margin-bottom: 16px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
 }
 
@@ -884,7 +884,7 @@ button:focus {
 
 .progress_item .progress_text h4 {
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 18px;
   color: #222222;
   margin-bottom: 20px;
@@ -976,7 +976,7 @@ button:focus {
 .love_text_item h4 {
   color: #222222;
   margin-bottom: 16px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
 }
 
@@ -1009,14 +1009,14 @@ button:focus {
 
 .timer_inner h5 {
   font-size: 36px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   margin-bottom: 35px;
 }
 
 .timer_inner p {
   font-size: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   margin-bottom: 0px;
   margin-top: 25px;
@@ -1066,7 +1066,7 @@ button:focus {
 .timer_inner .timer .timer__section .timer__number {
   font-size: 36px;
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
   font-style: italic;
 }
@@ -1144,7 +1144,7 @@ button:focus {
 
 .causes_item .causes_text h4 {
   color: #222222;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -2132,7 +2132,7 @@ button:focus {
 
 .reservation_form .form-group .res_select:after {
   content: "\e874";
-  font-family: 'Linearicons-Free';
+  font-family: 'Nanum Myeongjo', serif;
   color: #cccccc;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -2185,7 +2185,7 @@ button:focus {
 .contact_info .info_item h6 {
   font-size: 16px;
   line-height: 24px;
-  color: "Playfair Display", serif;
+  color: 'Nanum Myeongjo', serif;
   font-weight: bold;
   margin-bottom: 0px;
   color: #222222;
@@ -2287,7 +2287,7 @@ button:focus {
   text-align: center;
   color: #ff2f92;
   padding-bottom: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .modal-message .modal-dialog .modal-content .modal-header p {
