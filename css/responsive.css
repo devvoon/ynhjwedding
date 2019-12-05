@@ -379,9 +379,13 @@
 		padding: 50px 15px;
 	}
 	.home_banner_area {
-		min-height: 800px;
+		min-height: 700px;
+        /*min-width: 100%;*/
 	}
 	.home_banner_area .banner_inner {
-		min-height: 800px;
+        background-image: url(../img/banner/home-banner.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 800px;
 	}
 }
