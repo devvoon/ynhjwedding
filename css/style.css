@@ -42,6 +42,7 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -128,6 +129,10 @@ button:focus {
   font-size: 36px;
   color: #222222;
   margin-bottom: 12px;
+}
+
+.main_title h4 {
+font-family: 'Nanum Myeongjo', sans-serif;
 }
 
 .main_title p {
