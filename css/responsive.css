@@ -285,7 +285,6 @@
 	/* End Home Banner Area css
 	============================================================================================ */
 	.p_120 {
-        background: rgba(240,240,235, 0.5);
 		padding-top: 70px;
 		padding-bottom: 70px;
 	}
@@ -386,6 +385,6 @@
         background-image: url(../img/banner/home-banner.jpg);
         background-size: contain;
         background-repeat: no-repeat;
-        min-height: 800px;
+        min-height: 700px;
 	}
 }
