@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
+        <!-- Required meta tags 2020/01/12 일요일 낮 2시 -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=3.0">
         <meta name="HandheldFriendly" content="true" />
@@ -9,10 +9,11 @@
         <link rel="icon" href="img/favicon.png" type="image/png">
         <title>현재와 유나의 결혼식에 초대합니다.</title>
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="현재 ♥ 유나 결혼식에 초대합니다.">
-        <meta property="og:description" content="2020/01/12 일요일 낮 2시" />
+        <meta property="og:site_name" content="dawoonjeong.com/ynhjwedding" />
         <meta property="og:url" content="dawoonjeong.com/ynhjwedding">
+        <meta property="og:title" content="현재 ♥ 유나 결혼식에 초대합니다.">
         <meta property="og:image" content="https://github.com/iamdawoonjeong/ynhjwedding/blob/master/img/moments/Image-02.jpg?raw=true"/>
+        <meta property="og:description" content="" />
         <meta property="og:image:alt" contet="현재 ♥ 유나 결혼식에 초대합니다."/>
 
         <!-- Bootstrap CSS -->
@@ -536,7 +537,41 @@
 
 
 
+        <!-- 카카오톡 -->
 
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script>
+        Kakao.init('737a3cae95b26343dafe836be8857dbb');
+        Kakao.Link.createDefaultButton({
+          container: '#kakao-link-btn',
+          objectType: 'feed',
+          content: {
+            title: '유나찡의 모바일청첩장입니다.',
+            imageUrl: 'dawoonjeong.com/ynhjwedding/img/banner/home-banner.jpg',
+            imageWidth: 640,
+            imageHeight: 1280,
+            link: {
+              mobileWebUrl: 'dawoonjeong.com/ynhjwedding',
+              webUrl: 'dawoonjeong.com/ynhjwedding'
+            }
+          },
+          buttons: [
+            {
+              title: '유나찡 모바일청첩장 바로가기',
+              link: {
+                mobileWebUrl: 'dawoonjeong.com/ynhjwedding',
+                webUrl: 'dawoonjeong.com/ynhjwedding'
+              }
+
+            }
+          ]
+        });
+        </script>
+
+        <td width="25%">
+            <img class="sns_button" align="absmiddle" src="./img/sns_button_kakao_talk.png" onclick="kakaotalk_preview()" />
+        </td>
+        <!-- 카카오톡 -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
